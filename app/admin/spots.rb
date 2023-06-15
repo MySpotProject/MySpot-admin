@@ -45,7 +45,7 @@ ActiveAdmin.register Spot do
   end
 
   form do |f|
-      f.input do
+      f.inputs do
           f.input :title
           f.input :description
           f.input :lng
