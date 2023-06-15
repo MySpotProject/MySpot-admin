@@ -22,21 +22,26 @@ ActiveAdmin.register Spot do
   index do
     selectable_column
     id_column
-    column :email
-    column :nickname
-    column :vk
-    column :tg
-    column :mail
+    column :title
+    column :description
+    column :lng
+    column :lat
     column :images do |spot|
       spot.images.map do |image|
         image_tag url_for(image), style: "height: 80px;width:auto;"
       end
     end
+    column :pools
+    column :ramps
+    column :rail
+    column :ladder
+    column :slide
     column :created_at
+    column :updated_at
+    column :author
+    column :published
     actions
   end
-
-  
 
   filter :title
   filter :pools
