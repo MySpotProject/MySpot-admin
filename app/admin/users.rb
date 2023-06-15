@@ -1,5 +1,5 @@
 ActiveAdmin.register User do
-  permit_params :nickname, :email, :vk, :tg, :mail
+  permit_params :nickname, :email, :vk, :tg, :mail, :confirmed_at
   actions :all, except: [:new]
   index do
     selectable_column
@@ -27,8 +27,11 @@ ActiveAdmin.register User do
         image_tag (user.avatar.attached? ? url_for(user.avatar) : ""), style: "height: 80px;width:auto;"
       end
       row :created_at
+      row :confirmed_at
     end
   end
+
+  
 
   filter :email
   filter :nickname
