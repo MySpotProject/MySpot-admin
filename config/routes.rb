@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   resources :spots
   ActiveAdmin.routes(self)
   
-  root to "admin/dashboard#index"
+  root to: "admin/dashboard#index"
 end
