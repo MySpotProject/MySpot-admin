@@ -11,11 +11,18 @@ Rails.application.configure do
   # Do not eager load code on boot.
   config.eager_load = false
 
+  config.hosts << ENV["DOMAIN"]
+
+  Rails.application.routes.default_url_options = {
+    host: ENV["HOST"]
+  }
   # Show full error reports.
   config.consider_all_requests_local = true
 
   # Enable server timing
   config.server_timing = true
+
+  # config.action_mailer.perform_caching = false
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
