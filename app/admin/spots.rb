@@ -1,4 +1,5 @@
 ActiveAdmin.register Spot do
+  permit_params :title, :description, :lng, :lat, :pools, :ramps, :rail, :ladder, :slide, :created_at, :updated_at, :author, :published
   action_item :publish, only: :show do
      link_to "Опубликовать", publish_admin_spot_path(spot), method: :put if !spot.published?
   end
@@ -41,6 +42,24 @@ ActiveAdmin.register Spot do
     column :author
     column :published
     actions
+  end
+
+  form do |f|
+      f.input do
+          f.input :title
+          f.input :description
+          f.input :lng
+          f.input :lat
+          f.input :pools
+          f.input :ramps
+          f.input :rail
+          f.input :ladder
+          f.input :slide
+          f.input :created_at
+          f.input :updated_at
+          f.input :author, :label => "Автор", :as => :select, :colletion => User.all.map{|u| ["#{u.email}"]} 
+          f.input :published
+      end
   end
 
   filter :title
