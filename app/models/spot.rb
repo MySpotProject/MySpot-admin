@@ -1,7 +1,7 @@
 class Spot < ApplicationRecord
-    has_many_attached :images
-    has_many :spot_ratings
-    has_many :comments
+    has_many_attached :images, dependent: :destroy
+    has_many :spot_ratings, dependent: :destroy
+    has_many :comments, dependent: :destroy
 
     belongs_to :author, class_name: "User"
     

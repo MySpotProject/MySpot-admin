@@ -1,5 +1,5 @@
 class Trick < ApplicationRecord
-    has_many_attached :images
+    has_many_attached :images, dependent: :destroy
 
     validates_inclusion_of :difficulty, :in => 1..3
 
