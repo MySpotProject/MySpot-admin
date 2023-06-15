@@ -1,18 +1,48 @@
 ru:
   active_storage:
     models:
-      active_storage_blobs: "Файлы"
   activerecord:
     models:
-      user: "Пользователь"
-      trick: "Трюк"
-      spot: "Спот"
+      user: "Пользователи"
+      trick: "Трюки"
+      spot: "Споты"
       spot_rating: "Рейтинг спотов"
       user_comment: "Комментарии"
-      user_rating: "Рейтинг пользователей"
+      user_rating: "История баллов"
       news: "Новости"
       admin_user: "Администраторы"
+      active_storage_blobs: "Файлы"
   active_admin:
+    created_at: "Дата создания"
+    updated_at: "Дата обновления"
+    spot: "Название спота"
+    create: "Создать"
+    update: "Изменить"
+    email: "Эл. Почта"
+    title: "Название"
+    images: "Изображения"
+    avatar: "Аватар"
+    id: "П/п"
+    user: "Имя пользователя"
+    description: "Описание"
+    trick:
+      difficulty: "Сложность"
+      slug: "Url адрес"
+    spot: 
+      author: "Автор"
+      lng: "Долгота"
+      lat: "Широта"
+    spot_rating:
+      rating: "Рейтинг"
+    user_rating:
+      score: "Баллы"
+      reason: "Причина"
+    user:
+      nickname: "Никнейм"
+      vk: "Вконтакте"
+      tg: "Телеграм"
+    comment:
+      content: "Комментарий"
     dashboard: "Панель управления"
     dashboard_welcome:
       welcome: "Добро пожаловать в Active Admin. Это стандартная страница управления сайтом."
