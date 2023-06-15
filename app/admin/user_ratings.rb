@@ -5,7 +5,6 @@ ActiveAdmin.register UserRating do
     selectable_column
     id_column
     column :user_id
-    column :user
     column :score
     column :reason
     column :created_at

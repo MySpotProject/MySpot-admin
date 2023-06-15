@@ -5,7 +5,6 @@ ActiveAdmin.register Comment, as: "UserComment" do
     selectable_column
     id_column
     column :user_id
-    column :user
     column :spot_id
     column :spot
     column :content
