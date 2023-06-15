@@ -12,10 +12,10 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
-  config.hosts << "api.my-spot.online"
+  config.hosts << ENV["DOMAIN"]
 
   Rails.application.routes.default_url_options = {
-    host: 'https://api.my-spot.online'
+    host: ENV["HOST"]
   }
 
   # Full error reports are disabled and caching is turned on.
