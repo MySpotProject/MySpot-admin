@@ -14,6 +14,7 @@ ActiveAdmin.register Trick do
             end
         end
         column :created_at
+        actions
     end
 
     def show
