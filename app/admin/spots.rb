@@ -57,7 +57,7 @@ ActiveAdmin.register Spot do
           f.input :slide
           f.input :created_at
           f.input :updated_at
-          f.input :author, :label => "Автор", :as => :select, :colletion => User.all.map{|u| ["#{u.email}"]} 
+          f.input :author, :label => "Автор", :as => :select, :colletion => User.all.map{|u| ["#{u.email}", u.id]} 
           f.input :published
       end
   end
