@@ -60,6 +60,7 @@ ActiveAdmin.register Spot do
           f.input :author, :label => "Автор", :as => :select, :colletion => User.all.map{|u| ["#{u.email}", u.id]} 
           f.input :published
       end
+      f.actions
   end
 
   filter :title
