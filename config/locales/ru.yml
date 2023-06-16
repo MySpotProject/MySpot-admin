@@ -192,4 +192,10 @@ ru:
       create: Создать %{model}
       submit: Сохранить %{model}
       update: Сохранить %{model}      
-      
+  formtastic:
+    hints:
+      user:
+        password: оставьте пустым если не хотите изменять
+    actions:
+      create: "Создать %{model}"
+      update: "Обновить %{model}"
