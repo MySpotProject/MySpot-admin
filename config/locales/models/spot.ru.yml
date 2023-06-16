@@ -11,9 +11,11 @@ ru:
       spot:
         id: ID
         title: Название
-        description:
+        description: Описание
         lng: Долгота
         lat: Широта
+        images: Изображения
         сreate_at: Дата создания
         updated_at: Дата изменения
         author: Автор
+        published: Опудликовано?
