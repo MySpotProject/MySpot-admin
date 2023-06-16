@@ -17,4 +17,8 @@ ActiveAdmin.register News do
           row :created_at
         end
     end
+
+    filter: title
+    filter: description
+    filter: created_at
 end
