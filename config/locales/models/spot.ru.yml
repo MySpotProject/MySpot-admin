@@ -1,0 +1,21 @@
+ru:
+  activerecord:
+    models:
+      spot:
+        zero: Спотов
+        one: Спот
+        few: Спотов
+        many: Спотов
+        other: Стопы
+    attributes:
+      spot:
+        id: ID
+        title: Название
+        description: Описание
+        lng: Долгота
+        lat: Широта
+        images: Изображения
+        сreate_at: Дата создания
+        updated_at: Дата изменения
+        author: Автор
+        published: Опудликовано?
