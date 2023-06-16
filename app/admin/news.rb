@@ -18,7 +18,7 @@ ActiveAdmin.register News do
         end
     end
 
-    filter: title
-    filter: description
-    filter: created_at
+    filter :title
+    filter :description
+    filter :created_at
 end
