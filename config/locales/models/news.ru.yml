@@ -1,0 +1,15 @@
+ru:
+  activerecord:
+    models:
+      news:
+        zero: Новостей
+        one: Новость
+        few: Новостей
+        many: Новостей
+        other: Новости
+    attributes:
+      news:
+        id: ID 
+        title: Название
+        description: Описание
+        created_at: Дата создания

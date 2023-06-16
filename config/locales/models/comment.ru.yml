@@ -1,0 +1,17 @@
+ru:
+  activerecord:
+    models:
+      comment:
+        zero: Комментариев
+        one: Комментарий
+        few: Комментариев
+        many: Комментариев
+        other: Комментарии
+    attributes:
+      comment:
+        id: ID 
+        user_id: ID Пользователя
+        spot_id: ID Спота 
+        spot: Название спота
+        content: Содержание
+        created_at: Дата создания

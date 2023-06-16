@@ -1,0 +1,11 @@
+ru:
+  activerecord:
+    attributes:
+      spot_rating:
+        id: ID 
+        spot_id: ID спота
+        spot: Название спота
+        user_id: ID пользователя
+        rating: Оценка
+        created_at: Дата создания
+        updated_at: Дата обновления

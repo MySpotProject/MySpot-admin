@@ -1,0 +1,10 @@
+ru:
+  activerecord:
+    attributes:
+      user_rating:
+        id: ID 
+        user_id: ID Пользователя
+        score: Баллы
+        reason: Причина
+        created_at: Дата создания
+        updated_at: Дата обновления

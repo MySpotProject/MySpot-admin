@@ -1,14 +1,14 @@
 ru:
   activerecord:
     models:
-      user:
+      trick:
         zero: Трюков
         one: Трюк
         few: Трюков
         many: Трюков
         other: Трюки
     attributes:
-      user:
+      trick:
         id: ID 
         title: Название
         description: Описание
