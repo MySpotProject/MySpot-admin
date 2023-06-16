@@ -1,0 +1,18 @@
+ru:
+  activerecord:
+    models:
+      user:
+        zero: Трюков
+        one: Трюк
+        few: Трюков
+        many: Трюков
+        other: Трюки
+    attributes:
+      user:
+        id: ID 
+        title: Название
+        description: Описание
+        slug: Url адрес
+        difficulty: Сложность
+        images: Изображения
+        created_at: Дата создания
