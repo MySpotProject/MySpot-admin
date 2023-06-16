@@ -185,3 +185,11 @@ ru:
       block: "Список"
       grid: "Сетка"
       blog: "Блог"
+  helpers:
+    select:
+      prompt: 'Выберите: '
+    submit:
+      create: Создать %{model}
+      submit: Сохранить %{model}
+      update: Сохранить %{model}      
+      
