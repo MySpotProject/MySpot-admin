@@ -1,5 +1,5 @@
 ActiveAdmin.register User do
-  permit_params :nickname, :email, :vk, :tg, :confirmed_at
+  permit_params :nickname, :email, :vk, :tg, :confirmed_at, :avatar
   actions :all, except: [:new]
   index do
     selectable_column
