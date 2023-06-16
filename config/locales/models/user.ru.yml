@@ -9,10 +9,22 @@ ru:
         other: Пользователи
     attributes:
       user:
+        provider: Поставщик
         id: ID
+        Uid: Эл. почта
         email: Эл. почта
         nickname: Никнейм
         vk: Вконтакте
         tg: Телеграм
         avatar: Аватарка
         created_at: Дата создания
+        reset_password_token: Токен сброса пароля
+        reset_password_sent_at: Сброс пароля, отправленного по адресу
+        confirmation_token: Токен подтверждения
+        confirmed_at: Дата подтверждения
+        confirmation_sent_at: Подтверждение отправлено по адресу
+        unconfirmed_email: Неподтвержденный адрес электронной почты
+        name: Имя пользователя
+        tokens: Токены
+        image: Аватар
+        
